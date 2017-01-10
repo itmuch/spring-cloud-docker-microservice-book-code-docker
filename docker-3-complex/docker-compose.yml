@@ -1,9 +1,8 @@
-version: "2"
+rsion: "2"
 services:
-  peer1:      # 默认情况下，其他服务可以使用服务名称连接到该服务。因此，对于peer2的节点，它需要连接http://peer1:8761/eureka/，因此需要配置该服务的名称是peer1。
+  peer1:      # 默认情况下，其他服务可以使用服务名称连接到该服务。因此，对于peer2的节点，它需要连接http://peer1:8761/eureka/，因此需要配置该
+服务的名称是peer1。
     image: itmuch/microservice-discovery-eureka-ha:0.0.1-SNAPSHOT
-    networks: 
-      - eureka-net
     ports:
       - "8761:8761"
     environment:
@@ -11,14 +10,17 @@ services:
   peer2:
     image: itmuch/microservice-discovery-eureka-ha:0.0.1-SNAPSHOT
     hostname: peer2
-    networks: 
-      - eureka-net
     ports:
       - "8762:8762"
     environment:
       - spring.profiles.active=peer2
-networks:
-  eureka-net:
-    driver: bridge
-    
-## 使用Compose编排高可用的Eureka Server。
+  microservice-provider-user:
+    image: itmuch/microservice-provider-user:0.0.1-SNAPSHOT
+  microservice-consumer-movie-ribbon-hystrix:
+    image: itmuch/microservice-consumer-movie-ribbon-hystrix:0.0.1-SNAPSHOT
+  microservice-gateway:
+    image: itmuch/microservice-gateway-zuul:0.0.1-SNAPSHOT
+  microservice-hystrix-dashboard:
+    image: itmuch/microservice-hystrix-dashboard:0.0.1-SNAPSHOT
+  microservice-hystrix-turbine:
+    image: itmuch/microservice-hystrix-turbine:0.0.1-SNAPSHOT
