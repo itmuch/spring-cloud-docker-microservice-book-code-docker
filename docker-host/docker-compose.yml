@@ -25,7 +25,7 @@ services:
     network_mode: host
     ports:
     - 8031:8031
-  microservice-gateway:
+  microservice-gateway-zuul:
     image: itmuch/microservice-gateway-zuul:0.0.1-SNAPSHOT
     network_mode: host
     ports:

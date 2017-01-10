@@ -12,7 +12,7 @@ services:           # Version 2 file format的固定写法，为project定义服
     image: itmuch/microservice-consumer-movie-ribbon-hystrix:0.0.1-SNAPSHOT
     links: 
       - microservice-discovery-eureka:discovery
-  microservice-gateway:
+  microservice-gateway-zuul:
     image: itmuch/microservice-gateway-zuul:0.0.1-SNAPSHOT
     links: 
       - microservice-discovery-eureka:discovery
