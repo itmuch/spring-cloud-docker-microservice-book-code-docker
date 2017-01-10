@@ -1,4 +1,4 @@
-rsion: "2"
+version: "2"
 services:
   peer1:
     image: itmuch/microservice-discovery-eureka-ha:0.0.1-SNAPSHOT
