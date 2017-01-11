@@ -26,3 +26,9 @@
 ##  docker-3-complex
 
 * 综合示例，使用Docker Compose编排Spring Cloud微服务体系，并实现动态伸缩。
+
+
+
+## docker-host
+
+使用Docker Compose编排Spring Cloud微服务，使用host网络模式。该方式不适合生产，实体书里也没写。仅供参考、把玩。
