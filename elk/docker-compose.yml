@@ -1,0 +1,25 @@
+version: '2'
+services:
+ elasticsearch:
+  image: elasticsearch
+  command: elasticsearch
+  ports:
+   - "9200:9200"
+   - "9300:9300"
+ logstash:
+  image: logstash
+  command: logstash -f /etc/logstash/conf.d/logstash.conf
+  volumes:
+   - ./config:/etc/logstash/conf.d
+   - /opt/build:/opt/build
+  ports:
+   - "5000:5000"
+ kibana:
+  image: kibana
+  environment:
+   - ELASTICSEARCH_URL=http://elasticsearch:9200
+  ports:
+   - "5601:5601"
+   
+## ELK的docker-compose.yml文件。
+
