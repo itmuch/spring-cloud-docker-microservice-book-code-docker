@@ -1,34 +1,55 @@
-#README
+# 《Spring Cloud与Docker微服务架构实战》12-14章配套代码
 
-所有项目中的Docker Compose采用Version 2 file format编写。
+- 本Repo是《Spring Cloud与Docker微服务架构实战 - 周立》Docker章节的（12-14章）的配套代码
+- 所有Docker Compose采用Version 2 file format编写。
+- 1-11章配套代码详见：<http://git.oschina.net/itmuch/spring-cloud-docker-microservice-book-code>
 
 
 
 
+## 交流
 
-## docker-1-simple
+- QQ群：157525002
+- 个人博客：[http://www.itmuch.com](http://www.itmuch.com/)
+- Spring Cloud中国社区：[http://springcloud.cn](http://springcloud.cn/)
+- 微信公众号：往下翻_^
+
+
+**敬请关注**
+
+
+
+
+## 目录说明
+
+#### 一、docker-1-simple
 
 * 使用Maven的Docker插件构建Docker镜像。详见其中的microservice-discovery-eureka目录。
 * 使用Docker Compose编排Spring Cloud微服务。
 
 
 
-
-
-## docker-2-eureka-ha
+#### 二、docker-2-eureka-ha
 
 * 使用Docker Compose编排高可用的Eureka Server
 
 
 
-
-
-##  docker-3-complex
+####  三、docker-3-complex
 
 * 综合示例，使用Docker Compose编排Spring Cloud微服务体系，并实现动态伸缩。
 
 
-
-## docker-host
+#### 四、docker-host
 
 使用Docker Compose编排Spring Cloud微服务，使用host网络模式。该方式不适合生产，实体书里也没写。仅供参考、把玩。
+
+#### 五、ELK
+
+在第十一章用到ELK，考虑到对ELK不熟悉的朋友们，提供ELK的Compose文件。
+
+
+
+## 全书目录
+
+![目录](http://git.oschina.net/itmuch/spring-cloud-docker-microservice-book-code/raw/master/ad/catalog.png)
