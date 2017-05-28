@@ -15,9 +15,8 @@
 
   ![](ad/jd-购书链接.png)
 
-* 亚马逊购书链接
+  ​
 
-  ![](ad/amz-购书链接.jpg)
 
 
 
@@ -25,10 +24,10 @@
 
 ## 交流
 
-- QQ群：157525002（已满）、**564840207**
-- 个人博客：[http://www.itmuch.com](http://www.itmuch.com/)
-- Spring Cloud中国社区：[http://springcloud.cn](http://springcloud.cn/)
-- 微信公众号：往下翻_^
+- QQ群：157525002（2000人群，已满）、**564840207（2000人群，欢迎加入）**
+- 个人博客：[http://www.itmuch.com](http://www.itmuch.com)
+- Spring For Al社区：<http://www.spring4all.com>
+- 微信公众号：往下翻^_^
 
 
 **敬请关注**
