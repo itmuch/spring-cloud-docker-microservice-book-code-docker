@@ -1,25 +1,23 @@
 version: '2'
 services:
  elasticsearch:
-  image: elasticsearch
+  image: docker.elastic.co/elasticsearch/elasticsearch:6.1.1
   command: elasticsearch
   ports:
    - "9200:9200"
    - "9300:9300"
  logstash:
-  image: logstash
+  image: docker.elastic.co/logstash/logstash:6.1.1
   command: logstash -f /etc/logstash/conf.d/logstash.conf
   volumes:
+   # 挂载logstash配置文件
    - ./config:/etc/logstash/conf.d
-   - /opt/build:/opt/build
+   - /Users/apple/develop/code/GIT_CHECK/my/spring-cloud-docker-microservice-book-code/trace/build/:/opt/build/
   ports:
    - "5000:5000"
  kibana:
-  image: kibana
+  image: docker.elastic.co/kibana/kibana:6.1.1
   environment:
    - ELASTICSEARCH_URL=http://elasticsearch:9200
   ports:
    - "5601:5601"
-   
-## ELK的docker-compose.yml文件。
-
