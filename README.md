@@ -24,7 +24,7 @@
 
 ## 交流
 
-- QQ群：，731548893，欢迎加入
+- QQ群：731548893，欢迎加入
 - 个人博客：[http://www.itmuch.com](http://www.itmuch.com)
 - Spring For Al社区：<http://www.spring4all.com>
 - 微信公众号：往下翻^_^
