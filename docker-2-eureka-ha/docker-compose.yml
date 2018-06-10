@@ -1,4 +1,4 @@
-version: "2"
+version: "3"
 services:
   peer1:      # 默认情况下，其他服务可使用服务名称连接到该服务。对于peer2节点，它需连接http://peer1:8761/eureka/，因此，我们可配置该服务的名称为peer1。
     image: itmuch/microservice-discovery-eureka-ha:0.0.1-SNAPSHOT
