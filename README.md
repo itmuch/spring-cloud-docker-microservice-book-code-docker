@@ -11,7 +11,7 @@
 
 - QQ群：731548893，欢迎加入
 - 个人博客：[http://www.itmuch.com](http://www.itmuch.com)
-- 微信：[![img](https://gitee.com/itmuch/spring-cloud-docker-microservice-book-code/raw/master/wx.jpg)](https://gitee.com/itmuch/spring-cloud-docker-microservice-book-code/raw/master/wx.jpg)
+- 微信：![微信公众号](wx.jpg)
 
 
 **持续更新Spring Cloud、Docker相关知识**，敬请关注！！
