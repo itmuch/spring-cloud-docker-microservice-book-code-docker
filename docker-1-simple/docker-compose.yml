@@ -1,4 +1,4 @@
-version: '2'        # 表示该docker-compose.yml文件使用的是Version 2 file format
+version: '3'        # 表示该docker-compose.yml文件使用的是Version 2 file format
 services:           # Version 2 file format的固定写法，为project定义服务。
   microservice-discovery-eureka:                                  # 指定服务名称
     image: itmuch/microservice-discovery-eureka:0.0.1-SNAPSHOT    # 指定服务所使用的镜像

@@ -1,23 +1,8 @@
-# 《Spring Cloud与Docker微服务架构实战》Docker章节（12-14章）配套代码
+# 《Spring Cloud与Docker微服务架构实战 第二版》Docker章节（12-14章）配套代码
 
-- 本Repo是《Spring Cloud与Docker微服务架构实战 - 周立》Docker章节（12-14章）的配套代码
-- 所有Docker Compose采用Version 2 file format编写。
+- 本Repo是《Spring Cloud与Docker微服务架构实战 **第二版**》Docker章节（12-14章）的配套代码，**第一版**的配套源码详见Camden分支。
+- 所有Docker Compose采用Version 3 file format编写。
 - 1-11章配套代码详见：<http://git.oschina.net/itmuch/spring-cloud-docker-microservice-book-code>
-
-
-
-
-
-
-## 购书链接
-
-* 京东购书链接
-
-  ![](ad/jd-购书链接.png)
-
-  ​
-
-
 
 
 
@@ -26,11 +11,10 @@
 
 - QQ群：731548893，欢迎加入
 - 个人博客：[http://www.itmuch.com](http://www.itmuch.com)
-- Spring For Al社区：<http://www.spring4all.com>
-- 微信公众号：往下翻^_^
+- 微信：[![img](https://gitee.com/itmuch/spring-cloud-docker-microservice-book-code/raw/master/wx.jpg)](https://gitee.com/itmuch/spring-cloud-docker-microservice-book-code/raw/master/wx.jpg)
 
 
-**敬请关注**
+**持续更新Spring Cloud、Docker相关知识**，敬请关注！！
 
 
 
@@ -65,6 +49,3 @@
 
 
 
-## 全书目录
-
-![目录](http://git.oschina.net/itmuch/spring-cloud-docker-microservice-book-code/raw/master/ad/catalog.png)

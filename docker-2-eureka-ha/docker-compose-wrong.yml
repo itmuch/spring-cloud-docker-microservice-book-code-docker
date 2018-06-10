@@ -1,4 +1,4 @@
-version: "2"            # 表示使用docker-compose.yml的Version 2 file format编写
+version: "3"            # 表示使用docker-compose.yml的Version 3 file format编写
 services:
   microservice-discovery-eureka-ha1:
     hostname: peer1             # 指定hostname
